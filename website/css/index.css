@@ -33,3 +33,33 @@ body {
   background: #04AA6D;
   cursor: pointer;
 }
+
+.header-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+}
+
+.header-background {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: #075171;
+}
+
+.header-left, .header-background {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-left-img {
+  position: relative;
+  width: 110px;
+  height: 110px; 
+}
+
+.page-content {
+  margin-top: 10px;
+}
