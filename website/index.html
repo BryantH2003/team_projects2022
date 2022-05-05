@@ -17,23 +17,42 @@
 				<h1>Robotic Arm Controller</h1>
 			</div>
 		</div>
-		<div class="page-content">
+		<div class="finger-section">
+			<div class = "finger-container"></div>
 			<div class="slidecontainer">
-				<input type="range" min="1" max="100" value="50" class="slider" id="range1">
-				<p>Value: <span id="value1"></span></p>
+				<p class = "finger-slider-label">Thumb</p>
+				<input type="range" min="1" max="100" value="50" class="finger-slider" id="range1">
+				<p class = "finger-slider-label-bottom"><span id="value1"></span></p>
 			</div>
 			<div class="slidecontainer">
-				<input type="range" min="1" max="100" value="50" class="slider" id="range2">
-				<p>Value: <span id="value2"></span></p>
+				<p class = "finger-slider-label">Pointer Finger</p>
+				<input type="range" min="1" max="100" value="50" class="finger-slider" id="range2">
+				<p class = "finger-slider-label-bottom"><span id="value2"></span></p>
 			</div>
 			<div class="slidecontainer">
-				<input type="range" min="1" max="100" value="50" class="slider" id="range3">
-				<p>Value: <span id="value3"></span></p>
+				<p class = "finger-slider-label">Middle Finger</p>
+				<input type="range" min="1" max="100" value="50" class="finger-slider" id="range3">
+				<p class = "finger-slider-label-bottom"><span id="value3"></span></p>
 			</div>
 			<div class="slidecontainer">
-				<input type="range" min="1" max="100" value="50" class="slider" id="range4">
-				<p>Value: <span id="value4"></span></p>
+				<p class = "finger-slider-label">Ring Finger</p>
+				<input type="range" min="1" max="100" value="50" class="finger-slider" id="range4">
+				<p class = "finger-slider-label-bottom"><span id="value4"></span></p>
 			</div>
+			<div class="slidecontainer">
+				<p class = "finger-slider-label">Pinky</p>
+				<input type="range" min="1" max="100" value="50" class="finger-slider" id="range5">
+				<p class = "finger-slider-label-bottom"><span id="value5"></span></p>
+			</div>
+		</div>
+
+		<div class = elbow-shoulder-section>
+			<div class = "elbow-container"></div>
+				<div class = "elbowslidecontainer">
+					<p class = "elbow-slider-label">Elbow</p>
+					<input type="range" min="1" max="100" value="50" class="elbow-slider" id="range6">
+					<p class = "elbow-slider-label-bottom"><span id="value6"></span></p>
+				</div>
 		</div>
 	</body>
 
